@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Cep ViaCep"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Jogo Futebol - API"
+	}
+}
