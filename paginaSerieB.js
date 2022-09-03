@@ -23,120 +23,124 @@
             classificacao.addEventListener("click", () =>{
             tabela.innerHTML = 
             `
-            <table align="center"  style="border border-success">
+            <div class="row">
+            <div class="col d-flex justify-content-center align-items-center">
+            <table class="table table-sm">
             <tr align="center" width="100">
-            <th width="100">Posicao</th>
-            <th width="200">Time</th>
-            <th width="100">Pontuacao</th>
+            <th width="33%">Posicao</th>
+            <th width="34%">Time</th>
+            <th width="33%">Pontuacao</th>
             </tr>
             <br>  
-            <tr class="border border-success" align="center">
-            <th>${times[0].posicao}</th>
-            <th>${times[0].time.nome_popular}</th>
-            <th>${times[0].pontos}</th>
+            <tr class="" align="center">
+            <th align="center">${times[0].posicao}</th>
+            <th align="center">${times[0].time.nome_popular}</th>
+            <th align="center">${times[0].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[1].posicao}</th>
             <th>${times[1].time.nome_popular}</th>
             <th>${times[1].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[2].posicao}</th>
             <th>${times[2].time.nome_popular}</th>
             <th>${times[2].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[3].posicao}</th>
             <th>${times[3].time.nome_popular}</th>
             <th>${times[3].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[4].posicao}</th>
             <th>${times[4].time.nome_popular}</th>
             <th>${times[4].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[5].posicao}</th>
             <th>${times[5].time.nome_popular}</th>
             <th>${times[5].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[6].posicao}</th>
             <th>${times[6].time.nome_popular}</th>
             <th>${times[6].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[7].posicao}</th>
             <th>${times[7].time.nome_popular}</th>
             <th>${times[7].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr  align="center">
             <th>${times[8].posicao}</th>
             <th>${times[8].time.nome_popular}</th>
             <th>${times[8].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[9].posicao}</th>
             <th>${times[9].time.nome_popular}</th>
             <th>${times[9].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr  align="center">
             <th>${times[10].posicao}</th>
             <th>${times[10].time.nome_popular}</th>
             <th>${times[10].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr  align="center">
             <th>${times[11].posicao}</th>
             <th>${times[11].time.nome_popular}</th>
             <th>${times[11].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr  align="center">
             <th>${times[12].posicao}</th>
             <th>${times[12].time.nome_popular}</th>
             <th>${times[12].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[13].posicao}</th>
             <th>${times[13].time.nome_popular}</th>
             <th>${times[13].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[14].posicao}</th>
             <th>${times[14].time.nome_popular}</th>
             <th>${times[14].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr  align="center">
             <th>${times[15].posicao}</th>
             <th>${times[15].time.nome_popular}</th>
             <th>${times[15].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[15].posicao}</th>
             <th>${times[15].time.nome_popular}</th>
             <th>${times[15].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr  align="center">
             <th>${times[16].posicao}</th>
             <th>${times[16].time.nome_popular}</th>
             <th>${times[16].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[17].posicao}</th>
             <th>${times[17].time.nome_popular}</th>
             <th>${times[17].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[18].posicao}</th>
             <th>${times[18].time.nome_popular}</th>
             <th>${times[18].pontos}</th>
             </tr>
-            <tr class="border border-success" align="center">
+            <tr align="center">
             <th>${times[19].posicao}</th>
             <th>${times[19].time.nome_popular}</th>
             <th>${times[19].pontos}</th>
             </tr>
             </tr>
             </table>
+            </div>
+            </div>
             `});
         }
 
@@ -169,19 +173,19 @@ function artilheiroCampeonato(artilharia){
       artilheiro.addEventListener("click", () =>{
       tabela.innerHTML = 
       `
-      <table class="table" align="center">
-      <thead>
+      <table class="table" >
+      <thead align="center">
         <tr>
-          <th scope="col" width="33%">Atleta</th>
-          <th scope="col" width="33%">Time</th>
-          <th scope="col" width="33%">Gols</th>
+          <th scope="col" width="33%" align="">Atleta</th>
+          <th scope="col" width="33%" align="">Time</th>
+          <th scope="col" width="33%" align="">Gols</th>
         </tr>
       </thead>
       <tbody align="center">
         <tr>
-          <th scope="row">${artilharia[0].atleta.nome_popular}</th>
-          <td>${artilharia[0].time.nome_popular}</td>
-          <td>${artilharia[0].gols}</td>
+          <th align="center" scope="row">${artilharia[0].atleta.nome_popular}</th>
+          <td align="center">${artilharia[0].time.nome_popular}</td>
+          <td align="center">${artilharia[0].gols}</td>
           </tr>
           <tr>
           <th scope="row">${artilharia[1].atleta.nome_popular}</th>
@@ -265,26 +269,25 @@ function verJogos(){
   jogosRodada.addEventListener("click", () =>{
   tabela.innerHTML = 
   `   
-      <table class="table">
+        <table class="table table-sm">
           <thead>
-            <tr>
-              <th scope="col" width="10%" style="font-size:80%">Data</th>
-              <th scope="col" width="35%" style="font-size:80%">Mandante</th>
-              <th scope="col" width="10%" style="font-size:80%">Placar</th>
-              <th scope="col" width="10%" style="font-size:80%">Placar</th>
-              <th scope="col" width="35%" style="font-size:80%">Visitante</th>
-            </tr>
+              <tr>
+                <th width="33%">Dia e Hora</th>
+                <th width="33%">Times</th>
+                <th width="33%">Placar</th>
+              </tr>  
           </thead>
-          <tbody>
-            <tr>
-              <th scope="row" style="font-size:75%">${rodada.partidas[0].data_realizacao}</th>
-              <td style="font-size:80%">${rodada.partidas[0].time_mandante.nome_popular}</td>
-              <td style="font-size:80%">${rodada.partidas[0].placar_mandante}</td>
-              <td style="font-size:80%">${rodada.partidas[0].placar_visitante}</td>
-              <td style="font-size:80%">${rodada.partidas[0].time_visitante.nome_popular}</td>
-            </tr>
-          </tbody>
-        </table>
+            <tr ">
+                <td >${rodada.partidas[0].data_realizacao}</td>  
+                <td><img src="${rodada.partidas[0].time_mandante.escudo}" width="20px"> ${rodada.partidas[0].time_mandante.nome_popular}</td>
+                <td>${rodada.partidas[0].placar_mandante}</td>
+            </tr> 
+              <tr>
+              <td>${rodada.partidas[0].hora_realizacao}</td>
+              <td><img src="${rodada.partidas[0].time_visitante.escudo}" width="20px"> ${rodada.partidas[0].time_visitante.nome_popular}</td>
+              <td>${rodada.partidas[0].placar_visitante}</td>
+            </tr>  
+ 
   `});
 }
 if(times.erro){
@@ -292,6 +295,7 @@ tabela.innerHTML = "<br>Não foi possível localizar o endereço!";
 }
 else{
 verJogos();
+console.log(rodada.partidas[0]);
 }
 
 }
